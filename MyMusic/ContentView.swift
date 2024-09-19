@@ -12,10 +12,11 @@ struct ContentView: View {
     
     var body: some View {
         ZStack{
-            Image("background")
-                .resizable()
-                .ignoresSafeArea()
-                .scaledToFill()
+//            Image("background")
+//                .resizable()
+//                .ignoresSafeArea()
+//                .scaledToFill()
+            BackgroundView(imageName: "background")
             
             HStack{
                 Button {
